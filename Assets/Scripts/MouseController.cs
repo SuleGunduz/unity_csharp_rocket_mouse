@@ -114,6 +114,7 @@ public class MouseController : MonoBehaviour
 	    }
 	    dead = true;
 	    animator.SetBool("dead", true);
+        restartDialog.SetActive(true);
     }
 
     void CollectCoin(Collider2D coinCollider) 

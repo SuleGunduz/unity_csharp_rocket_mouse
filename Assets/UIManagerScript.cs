@@ -21,7 +21,6 @@ public class UIManagerScript : MonoBehaviour {
     public void StartGame()
     {
         SceneManager.LoadScene("RocketMouse");
-
     }
 
     public void OpenSettings()
